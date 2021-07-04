@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* *, ::after, ::before{
+    
+    box-sizing: initial!important;
+} */
+
+.conMain{
+    content: '';
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+}
+.conMain ::after{
+    box-sizing: initial!important;
+}
+.conMain ::before{
+    box-sizing: initial!important;
+}
+.container1{
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    /* min-height: 100vh; */
+    width: 330px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 35px 10px 35px;
+    
+    border: #122f8b solid;
+    border-radius: 15px;
+}
+.container1 header{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+.container1 .form-outer{
+    width: 100%;
+    overflow: hidden;
+}
+.container1 form{
+    display: flex;
+    width: 400%;
+}
+.container1 form .page{
+    width: 25%;
+    transition: margin-left 0.3s ease-in-out;
+}
+.container1 form .page .title{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+}
+.container1 form .page .field{
+    height: 45px;
+    width: 330px;
+    margin: 45px 0;
+    position: relative;
+    display: flex;   
+}
+.container1 form .page .field1{
+    width: 100%;
+}
+.container1 form .page .field .label, .container1 form .page .field1 .label{
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+}
+.container1 form .page .field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+form .page .field select{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid lightgrey;
+}
+form .page .field1 button{
+    margin-top: 30px;
+    margin-left: -45px;
+    width: 310px;
+}
+.container1 form .page .field button{
+    width: 100%;
+    height: calc(100%+5px);
+    margin-top: -20px;
+    border: none;
+    background-color: #2e5fff;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.container1 form .page .field button:hover{
+    background-color: #122f8b;
+}
+.form-outer form .page .btns button{
+    margin-top: -20px!important;
+}
+
+form .page .btns .prev,form .page .btns .Submit{
+    margin-left: 3px;
+}
+form .page .btns .next{
+    margin-left: 3px;
+}
+.container1 .progress-bar1{
+    display: flex;
+    margin: 20px 0px;
+}
+.container1 .progress-bar1 .step{
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.progress-bar1 .step p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 8px;
+    transition: 0.2s;
+}
+.progress-bar1 .step p.active{
+    color:#2e5fff;
+}
+.progress-bar1 .step .bullet{
+    height: 25px;
+    width: 25px;
+    border: 2px solid #000000;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.progress-bar1 .step .bullet.active{
+    border-color: #122f8b;
+    background-color: #122f8b;
+}
+.progress-bar1 .step .bullet span{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    transform: translateX(-50%);
+}
+.progress-bar1 .step .bullet.active span{
+    display: none;
+}
+.progress-bar1 .step .check{
+    position:absolute;
+    left: 50%;
+    top: 80%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.progress-bar1 .step .check.active{
+    display: block;
+    color: #ffffff;
+}
+.setinfo{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.setinfo1{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.modelinfo{
+    margin-bottom: 10px;
+}
