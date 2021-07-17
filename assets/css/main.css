@@ -1475,21 +1475,21 @@ Anurag
     }
     .float{
       position:fixed;
-      width:30px;
-      height:30px;
-      bottom:20px;
-      right:20px;
+      width:45px;
+      height:45px;
+      bottom:30px;
+      right:34px;
       background-color:#25d366;
       color:#FFF;
       border-radius:50px;
       text-align:center;
-      font-size:15px;
+      font-size:29px;
       box-shadow: 2px 2px 3px #999;
       z-index:100;
     }
     
     .my-float{
-      margin-top:8px;
+      margin-top:6px;
     }
     
 }
