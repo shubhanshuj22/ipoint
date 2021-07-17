@@ -6,26 +6,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
+    <title>Repair your Apple products - iPoint</title>
+    <link rel="icon" href="assets/images/favicon.png">
+
+
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css" integrity="sha512-ARJR74swou2y0Q2V9k0GbzQ/5vJ2RBSoCWokg4zkfM29Fb3vZEQyv0iWBMW/yvKgyHSR/7D64pFMmU8nYmbRkg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
-    <title>Home</title>
-
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
-    <link rel="stylesheet" href="assets/css/templatemo-lava.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/complaint.css">
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
 </head>
 
 <body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<style>
+    .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
 
+.my-float{
+	margin-top:16px;
+}
+</style>
+<a href="https://wa.me/+919810906000" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
@@ -81,7 +107,7 @@
                         <div style="margin: 40px;">
                             <div class = "conMain">
                             <div class="container1">
-                                <span style="background-color: #e7ecff;padding:10px;border-radius: 5px;">Select your device to get started now! </span> 
+                                <span style="background-color: #ffcb2e;padding:1px;border-radius: 5px;">Select your device to get started now! </span>
 
                                 <div class="progress-bar1">
                                     <div class="step">
@@ -115,24 +141,21 @@
                                 </div>
                                 <div class="form-outer">
                                     <form action="#">
-                                        <div class="page slidepage">
+                                        <div class="page slidepage" id="page1" style="display: block;">
                                             <div class="title">Product Info :</div>
-                                            <div class="field">
+                                            <div class="field" style="display: none;">
                                                 <div class="label">Choose Device Type :</div>
                                                 <select name="productname" id="productname">
-                                                    <option value="">Select Device Type</option>
-                                                    <option value="Apple">Apple</option>
-                                                    <option value="Windows">Windows</option>
-                                                    <option value="Android">Android</option>
+                                                    <option value="fg">Select Device ekhkf</option>
                                                 </select>
                                             </div>
                                             <div class="field">
                                                 <div class="label">Choose Device Name:</div>
-                                                <select name="setname" id="setname">
+                                                <select name="setname" id="setname" >
                                                     <option value="">Select Device</option>
                                                     <option value="iPhone">iPhone</option>
-                                                    <option value="iWatch">iWatch</option>
-                                                    <option value="iPad">iPad</option>
+                                                    <option value="Iwatch">iWatch</option>
+                                                    <option value="Ipad">iPad</option>
                                                     <option value="MacBook">MacBook</option>
                                                 </select>
                                             </div>
@@ -141,17 +164,13 @@
                                             </div>
                                         </div>
                         
-                                        <div class="page">
+                                        <div class="page" id="page2">
                                             <p class="setinfo"></p>
                                             <div class="title">Model Info :</div>
                                             <div class="field">
                                                 <div class="label">Choose Model Name:</div>
                                                 <select name="modelname" id="modelname">
                                                     <option value="">Select Model</option>
-                                                    <option value="iPhone X">iphone X</option>
-                                                    <option value="iPhone X1">iphone X1</option>
-                                                    <option value="iPhone X2">iphone X2</option>
-                                                    <option value="iPhone X3">iphone x3</option>
                                                 </select>
                                             </div>
                                             <div class="field btns">
@@ -160,17 +179,13 @@
                                             </div>
                                         </div>
                         
-                                        <div class="page">
+                                        <div class="page" id="page3">
                                             <p class="setinfo1"></p>
                                             <p class="modelinfo"></p>
                                             <div class="title">Issues :</div>
-                                            <div class="field1">
-                                                <select name="issue" id="issue" class="issue" multiple>
-                                                    <option value="">Select Issue</option>
-                                                    <option value="MacBook Screen|Display Repair & Replacement">MacBook Screen|Display Repair & Replacement</option>
-                                                    <option value="MacBook Hard Disk Drive Repair & Replacement">MacBook Hard Disk Drive Repair & Replacement</option>
-                                                    <option value="MacBook Motherboard Repair & Replacement">MacBook Motherboard Repair & Replacement</option>
-                                                    <option value="MacBook RAM Addition, Repair & Replacement">MacBook RAM Addition, Repair & Replacement</option>
+                                            <div class="field1" id = "field1">
+                                                <select name="issue" id="issue" class="issue" style="position: absolute; inset: 0px auto auto 0px; transform: translate(0px, 49px);" data-tick-icon="fa fa-check-circle yellow-color" multiple>
+                                                    <option style="font-size: 100px" value="12">Select Issue</option>
                                                 </select>
                                             </div>
                                             <div class="field btns">
@@ -179,19 +194,40 @@
                                             </div>
                                         </div>
                         
-                                        <div class="page">
+                                        <div class="page" id="page4">
                                             <div class="title">Contact Details :</div>
                                             <div class="field">
                                                 <div class="label">Enter Phone Number :</div>
                                                 <input type="number" name="phone" id="phone">
+                                                <button class="Submit" style="margin-top: 1px;margin-left: 20px;height: 50px;">OTP</button>
                                             </div>
                                             <div class="field">
                                                 <div class="label" id="otplabel">OTP :</div>
+                                                <br>
+                                                <br>
                                                 <input type="number" name="otp" id="otp">
                                             </div>
                                             <div class="field btns">
                                                 <button class="prev-3 prev">Previous</button>
-                                                <button class="Submit">Send OTP</button>
+                                                <button class="next-3 next">Next</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="page" id="page5">
+                                            <p class="setinfo1"></p>
+                                            <p class="modelinfo"></p>
+                                            <div class="title">Details :</div>
+                                                <input id = "fullname" placeholder="Full Name" required style="padding: 10px;margin-top: 10px;">
+                                                <input id = "email" placeholder="Email" required style="padding: 10px;margin-top: 10px;"><br>
+                                                <input type="checkbox" id="pickup" style="margin-top: 10px;">
+                                                <label for="pickup">Want us to Pickup your device.</label> 
+                                                
+                                                <br>
+                                                <span for="pickup" id = "extraCharge" style="padding: 10px;margin-top: 10px;" >Pickup include extra charges.</span> <br>
+                                                <input id = "address" placeholder="Pickup Address" style="padding: 10px; color: black;" disabled value="GF-16, LSC, PLOT NO.-10, NEW RAJHDHANI ENCLAVE, PREET VIHAR, NEW DELHI, Delhi, India 110092">
+                                            <div class="field btns">
+                                                <button class="prev-4 prev">Previous</button>
+                                                <button class="next-4 next">Submit</button>
                                             </div>
                                         </div>
                                         
@@ -207,14 +243,14 @@
         <!-- ***** Header Text End ***** -->
     </div>
     <!-- ***** Welcome Area End ***** -->
-
+    
     <!-- ***** Features Big Item Start ***** -->
     <section class="section" id="about">
         <div class="container" >
 
             <div class="row">
                 <div class="center-heading" data-scroll-reveal="enter top move 30px over 0.6s after 0.4s"> 
-                    <h2><span style="background-color: #122f8b;color:white;">We</span> <em style="color: #122f8b;"> Repair </em>Your Device</h2>
+                    <h2 style="margin: 20px;"><span style="background-color: #eeb405;color:white;">We</span> <em style="color: #eeb405;"> Repair </em>Your Device</h2>
                 </div>
                     
                 <div class="col-lg-8 offset-lg-2" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
@@ -268,7 +304,7 @@
                   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
                   <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
               
-                  <link rel="stylesheet" href="assets/css/templatemo-lava.css">
+                  <link rel="stylesheet" href="assets/css/main.css">
               
                   <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
@@ -281,14 +317,10 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="center-heading">
-                        <h2>Heading</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam</p>
+                        <h2>About Us</h2>
+                        <p>An excellent and satisfactory journey of  <b>10 years</b> in the mobile-servicing domain with ever evolving customers along with their products. <b>We genuinely feel it is with their support we come a long way and going further with your support</b>.
+                            iPoint is destined to make repair of your Apple devices easy and simple activity without any hassle. We are providing door step services so that you don’t have to worry about the security of your utmost important data.
+                            Like earlier we believe in the process of continuous improvement and hence would love to hear from you, please share your thoughts at <a href="mailto:mrdeepak1827@gmail.com">mrdeepak1827@gmail.com</a> And keep connected on insta..etc</p>
                     </div>
                 </div>
             </div>
@@ -310,33 +342,43 @@
                 </div>
                 <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
                     <ul>
+                        <style>h4{font-weight: 510;}</style>
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                             <img src="assets/images/about-icon-01.png" alt="">
-                            <div class="text">
-                                <h4>Headline 1</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam.</p>
+                            <div class="text" >
+                                <h4>Free mobile testing service</h4>
+                                <p>For online customers for a limited time period. Book an appointment 
+                                    online and get a free mobile testing offer.</p>
                             </div>
                         </li>
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
-                            <img src="assets/images/about-icon-02.png" alt="">
+                            <img src="assets/images/about-icon-01.png" alt="" >
                             <div class="text">
-                                <h4>Headline 2</h4>
-                                <p>YLorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam.</p>
+                                <h4>Door-step service solution in Delhi/NCR</h4>
+                                <p>In the pandemic time no worry to step out from home to get your mobile repaired. 
+                                    Tell the problem of your phone to our customer service and technician will visit 
+                                    to your home with required parts with all prescribed safety of COVID and repair 
+                                    your mobile in front of you.
+                                </p>
                             </div>
                         </li>
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
-                            <img src="assets/images/about-icon-03.png" alt="">
+                            <img src="assets/images/about-icon-01.png" alt="">
                             <div class="text">
-                                <h4>Headline 3</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam </p>
+                                <h4>30 Days warranty on repair parts replaced</h4>
+                                <p>Any part which we have replaced if developed any defect or found defective then 
+                                    it can be replaced by us on free of cost basis. </p>
                             </div>
                         </li>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
+                            <img src="assets/images/about-icon-01.png" alt="">
+                            <div class="text">
+                                <h4>Customer centric approach </h4>
+                                <p>For Us customers come first, and hence we take utmost care of them and 
+                                    their devices in a customer friendly environment. </p>
+                            </div>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -353,9 +395,6 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="center-heading">
                         <h2>What They Think <em>About Us</em></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam</p>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
@@ -363,7 +402,7 @@
                     <div class="owl-carousel owl-theme">
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author One" style="border-radius:100%;"></i>
+                                <i><img src="assets/images/m1.png" alt="First Author"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
@@ -371,17 +410,40 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
                                 </ul>
-                                <h4>Preson 1</h4>
-                                <p>“I’ve been there for a broken screen and my daughters been there for an ‘unfixable’ phone. 
-                                    Both were fixed and quickly too! Very professional and knowledgeable. Highly recommend.”</p>
-                                <span>Designation</span>
+                                <h4>Zareen khan</h4>
+                                <p>“Great place for you apple product service and also very attrective interior. I went for a Display replace for my MacBook 
+                                    Pro 13inch Touch Bar  was done a great job. The front office executive was very helpful . The cost is also reasonable 
+                                    when compared to other stores. Do give them a try if you have any issues with your Apple product.  Highly recommended 
+                                    iPoint Service Center.”</p>
+                                <!-- <span>Designation</span> -->
                             </div>
                         </div>
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Second Author"></i>
+                                <i><img src="assets/images/m2.png" alt="Second Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Amreen Saifi</h4>
+                                <p>“Very intelligent in their technical approach and  very responsive. My issue related to iPad was solved in  
+                                    (apple store in Preet vihar even declared my product useless )....I am happy that I can use my old apple 
+                                    product again....will visit your store again n again staff is very polite and cordial. A well decored service center.”
+                                    <br>
+                                    <br>
+                                </p>
+                                <!-- <span>Designation</span> -->
+                            </div>
+                        </div>
+                        
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/f1.png" alt="Third Author" style="border-radius:50%"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
@@ -391,31 +453,32 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                 </ul>
-                                <h4>Person 2</h4>
-                                <p>“I’ve been there for a broken screen and my daughters been there for an ‘unfixable’ phone. 
-                                    Both were fixed and quickly too! Very professional and knowledgeable. Highly recommend.”</p>
-                                <span>Designation</span>
+                                <h4>Priya Agrawal</h4>
+                                <p>“I really had a great experience with them, did replaced my screen of MacBook Pro retina Touch Bar (2019 model)  
+                                    original part that too in lesser price, really kind of the place I am looking forward for all my technical support.”</p>
+                                <!-- <span>Designation</span> -->
                             </div>
                         </div>
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author Third"></i>
+                                <i><img src="assets/images/m1.png" alt="Fourth Author"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
                                 </ul>
-                                <h4>Person 3</h4>
-                                <p>“I’ve been there for a broken screen and my daughters been there for an ‘unfixable’ phone. 
-                                    Both were fixed and quickly too! Very professional and knowledgeable. Highly recommend.”</p>
-                                <span>Designation</span>
+                                <h4>Gagan Malhotra</h4>
+                                <p>“Doctor of apple devices ( 5 Star experience in east delhi ) Believe in making relationships not only sales! 
+                                    Visit and have your device back to life 🥂 Kudos to entire team Ipoint.”</p>
+                                <!-- <span>Designation</span> -->
                             </div>
                         </div>
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Fourth Author"></i>
+                                <i><img src="assets/images/m2.png" alt="Fifth Author"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
@@ -424,10 +487,37 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                 </ul>
-                                <h4>Person 4</h4>
-                                <p>"I’ve been there for a broken screen and my daughters been there for an ‘unfixable’ phone. 
-                                    Both were fixed and quickly too! Very professional and knowledgeable. Highly recommend."</p>
-                                <span>Designation</span>
+                                <h4>Jahan Joniy</h4>
+                                <p>“I gave my iphone 11 pro for repaire and read the reviews later which shook me from within and could not 
+                                    decide if the phone was given to right people or not. But later I analysed that it could be a misunderstanding 
+                                    as they gave a new life to my phone which was beyond repairs( as told by a Engineer Mr Noman at iPoint). 
+                                    I also got all my data back, which was an icing on the cake. They charge hefty but they delivered what they said. 
+                                    I will always be thankful to them. Highly recommende straf is very good.
+                                    ”</p>
+                                <!-- <span>Designation</span> -->
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/f1.png" alt="Sixth Author" style="border-radius:100%;" style="border-radius:50%"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    
+                                </ul>
+                                <h4>Rashida Ansari</h4>
+                                <p>“Easily the best service provider for Apple products and I've been to most of the Service Centres in Delhi. 
+                                    They offer the best advice, and their aim is to help and not produce profits. My phone battery had the smallest 
+                                    of issues that you could imagine and they solved it in 2 minutes free of cost whereas other so called service 
+                                    centres asked for at least 500-1000 to take care of it. My experience with them has been overwhelmingly fantastic 
+                                    and they are very polite and genuine helpers. I will say it again, they are the by far the best service provider in Delhi.
+                                     Good quality and i suggest to all please visit once to ipoint”</p>
+                                <!-- <span>Designation</span> -->
                             </div>
                         </div>
                     </div>
@@ -468,7 +558,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <fieldset>
-                                            <button type="submit" id="form-submit" class="main-button">Send Message
+                                            <button type="submit" id="form-submit" class="main-button" style="font-weight: 400;">Send Message
                                                 Now</button>
                                         </fieldset>
                                     </div>
@@ -479,18 +569,18 @@
                     <!-- ***** Contact Form End ***** -->
                     <div class="right-content col-lg-6 col-md-12 col-sm-12">
                         <h2>More About <em style="color: #65bd4a;">ipoint</em></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam.
+                        <p>iPoint strives to achieve excellence in Apple Devices Repair work and working towards it every day. 
+                            Equipped to handle Apple mobile phones, iPad, Mac book and all other apple devices. <b>Our efficient technicians 
+                                are always ready to assist in the best possible manner.</b>
                             <br><br>If you need this contact form to send email to your inbox, you may follow our contact page
                             for more detail.</p>
                         <ul class="social">
                             <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                        </ul>
+                            <li><a href="mailto:mrdeepak1827@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="https://wa.me/+919810906000" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                            </ul>
                     </div>
                 </div>
             </div>
