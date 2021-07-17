@@ -1477,8 +1477,8 @@ Anurag
       position:fixed;
       width:45px;
       height:45px;
-      bottom:30px;
-      right:34px;
+      bottom:35px;
+      right:35px;
       background-color:#25d366;
       color:#FFF;
       border-radius:50px;
@@ -1489,7 +1489,7 @@ Anurag
     }
     
     .my-float{
-      margin-top:6px;
+      margin-top:8.5px;
     }
     
 }
