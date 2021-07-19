@@ -21,7 +21,7 @@ window.onload=function(){
 function render(){
 
     firebase.auth().languageCode = 'it';
-    window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container');
+    window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptchacontainer');
     
     recaptchaVerifier.render();
 }
